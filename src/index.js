@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import style from "./index.scss";
-
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Search from './search'
+import './index.scss'
 
 const Index = () => (
-     <div>Hello React!</div>
+  <Search />
 )
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+ReactDOM.render(<Index />, document.getElementById('index'))
