@@ -1,3 +1,34 @@
+*{
+	font-family: Helvetica, sans-serif;
+}
+
 #index{
   color: #488aff;
+}
+
+.nav{
+	list-style: none;
+	display: flex;
+}
+
+.navLi{
+	margin-right: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+input{
+	padding: 10px 5px;
+	width: 300px;
+	font-size: 14px;
+}
+
+button{
+	text-align: center;
+	background-color: #666;
+	color: #fff;
+	padding: 10px 5px;
+	width: 50;
 }

@@ -1,14 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Result extends Component {
-  render() {
-    const { nomEvent } = this.props
-    return (
-      <ul>
-        { nomEvent.map(event => <li key={event.title}>{event.title}</li>)}
-      </ul>
-    )
-  }
-}
+const Result = ({ data }) => (
+  <ul>
+    {data.map(item => <li key={item.id}>{item.title}</li>)}
+  </ul>
+)
 
 export default Result
